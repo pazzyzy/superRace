@@ -65,9 +65,17 @@ class ViewController: UIViewController {
             gameOverText.isHidden = false
 //            let image = UIImage(named: "carCrash.png")
             car.image = UIImage(named: "carCrash.png")
-            
+            car.frame = CGRect(x: view.frame.width / 2 - car.frame.width / 2, y: view.frame.height / 2 - car.frame.width / 2, width: car.frame.width, height: car.frame.height)
+            carCrash()
         }
     }
+    //carcrash
+    func carCrash() {
+        UIView.animate(withDuration: 1) {
+            self.car.transform = CGAffineTransform(scaleX: 3, y: 3)
+        }
+    }
+    
     // анимация полос
     func superTimer() {
         let timer = Timer.scheduledTimer(timeInterval: 0.5,

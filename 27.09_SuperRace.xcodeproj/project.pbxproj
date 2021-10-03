@@ -18,7 +18,7 @@
 		C605A54B2705E78000138B6A /* whiteCar.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54A2705E78000138B6A /* whiteCar.png */; };
 		C605A54D2705E7A500138B6A /* grayCar.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54C2705E7A500138B6A /* grayCar.png */; };
 		C605A54F2705EEBD00138B6A /* roadWork.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54E2705EEBD00138B6A /* roadWork.png */; };
-		C65D615D270A48B800F62346 /* carCrash.png in Resources */ = {isa = PBXBuildFile; fileRef = C65D615C270A48B800F62346 /* carCrash.png */; };
+		C65D615F270A4ADA00F62346 /* carCrash.png in Resources */ = {isa = PBXBuildFile; fileRef = C65D615E270A4ADA00F62346 /* carCrash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		C605A54A2705E78000138B6A /* whiteCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCar.png; sourceTree = SOURCE_ROOT; };
 		C605A54C2705E7A500138B6A /* grayCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayCar.png; sourceTree = SOURCE_ROOT; };
 		C605A54E2705EEBD00138B6A /* roadWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadWork.png; sourceTree = SOURCE_ROOT; };
-		C65D615C270A48B800F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carCrash.png; sourceTree = SOURCE_ROOT; };
+		C65D615E270A4ADA00F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carCrash.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				C605A54A2705E78000138B6A /* whiteCar.png */,
 				C605A54C2705E7A500138B6A /* grayCar.png */,
 				C605A54E2705EEBD00138B6A /* roadWork.png */,
-				C65D615C270A48B800F62346 /* carCrash.png */,
+				C65D615E270A4ADA00F62346 /* carCrash.png */,
 			);
 			path = 27.09_SuperRace;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 				C605A54727052ADF00138B6A /* car.png in Resources */,
 				C605A5272705140600138B6A /* Main.storyboard in Resources */,
 				C605A54D2705E7A500138B6A /* grayCar.png in Resources */,
-				C65D615D270A48B800F62346 /* carCrash.png in Resources */,
+				C65D615F270A4ADA00F62346 /* carCrash.png in Resources */,
 				C605A541270523D500138B6A /* clean-road.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
