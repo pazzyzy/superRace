@@ -205,7 +205,7 @@ class ViewController: UIViewController {
     @IBAction func actionStartGame(_ sender: Any) {
         superTimer()
         oncomingFlowRight()
-        startButton.setTitle(" ", for: .normal)
+        startButton.setTitle("      test", for: .normal)
     }
     
     @IBAction func actiomLeft(_ sender: Any) {
