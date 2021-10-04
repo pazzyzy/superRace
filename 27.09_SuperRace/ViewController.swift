@@ -233,7 +233,11 @@ class ViewController: UIViewController {
     
     @IBAction func actionDown(_ sender: Any) {
         let carStep: Int = 50
-        car.frame = CGRect(x: car.frame.minX, y: car.frame.minY + CGFloat(carStep), width: car.frame.width, height: car.frame.height)
+        if car.frame.maxY < view.frame.height - CGFloat(carStep) {
+            car.frame = CGRect(x: car.frame.minX, y: car.frame.minY + CGFloat(carStep), width: car.frame.width, height: car.frame.height)
+        } else {
+            car.frame = CGRect(x: car.frame.minX, y: view.frame.height - car.frame.height, width: car.frame.width, height: car.frame.height)
+        }
     }
     
 }
