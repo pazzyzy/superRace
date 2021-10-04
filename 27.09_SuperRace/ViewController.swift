@@ -225,5 +225,16 @@ class ViewController: UIViewController {
             car.frame = CGRect(x: view.frame.width - car.frame.width, y: car.frame.minY, width: car.frame.width, height: car.frame.height)
         }
     }
+    
+    @IBAction func actionUp(_ sender: Any) {
+        let carStep: Int = 50
+        car.frame = CGRect(x: car.frame.minX, y: car.frame.minY - CGFloat(carStep), width: car.frame.width, height: car.frame.height)
+    }
+    
+    @IBAction func actionDown(_ sender: Any) {
+        let carStep: Int = 50
+        car.frame = CGRect(x: car.frame.minX, y: car.frame.minY + CGFloat(carStep), width: car.frame.width, height: car.frame.height)
+    }
+    
 }
 
