@@ -64,7 +64,7 @@ class ViewController: UIViewController {
             gameOverView.isHidden = false
             gameOverText.isHidden = false
 //            let image = UIImage(named: "carCrash.png")
-            car.image = UIImage(named: "carCrash.png")
+            car.image = UIImage(named: "carCrash")
             car.frame = CGRect(x: view.frame.width / 2 - car.frame.width / 2, y: view.frame.height / 2 - car.frame.width / 2, width: car.frame.width, height: car.frame.height)
             carCrash()
         }
