@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // полосы движени
+    // line
     @IBOutlet weak var line1: UILabel!
     @IBOutlet weak var line1a: UILabel!
     @IBOutlet weak var line2: UILabel!
@@ -21,15 +21,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var line5a: UILabel!
     @IBOutlet weak var line6: UILabel!
     @IBOutlet weak var line6a: UILabel!
-    // авто
+    // auto
     @IBOutlet weak var car: UIImageView!
     @IBOutlet weak var whiteCar: UIImageView!
     @IBOutlet weak var grayCar: UIImageView!
     // дорожный знак
     @IBOutlet weak var roadWork: UIImageView!
-    // старт игры
+    // start game
     @IBOutlet weak var startButton: UIButton!
-    // конец игры
+    // game over
     @IBOutlet weak var gameOverView: UIView!
     @IBOutlet weak var gameOverText: UILabel!
     
@@ -43,9 +43,9 @@ class ViewController: UIViewController {
         addLineToArray()
     }
     
-    
-    
     @objc func carsToGo() {
+        
+        let intersects: Bool = car.frame.intersects(whiteCar.frame) || car.frame.intersects(grayCar.frame) || car.frame.intersects(roadWork.frame)
         
         if grayCar.frame.minY < view.frame.height {
             grayCar.frame = CGRect(x: grayCar.frame.minX, y: grayCar.frame.minY + 5, width: grayCar.frame.width, height: grayCar.frame.height)
@@ -65,23 +65,27 @@ class ViewController: UIViewController {
             whiteCar.frame = CGRect(x: whiteCar.frame.minX, y: 0 -  whiteCar.frame.minY, width: whiteCar.frame.width, height: whiteCar.frame.height)
         }
         
-        if car.frame.intersects(whiteCar.frame) || car.frame.intersects(grayCar.frame) || car.frame.intersects(roadWork.frame) {
+        if intersects {
             gameOverView.isHidden = false
             gameOverText.isHidden = false
-//            let image = UIImage(named: "carCrash.png")
             car.image = UIImage(named: "carCrash")
-            car.frame = CGRect(x: view.frame.width / 2 - car.frame.width / 2, y: view.frame.height / 2 - car.frame.width / 2, width: car.frame.width, height: car.frame.height)
+            car.frame = CGRect(x: view.frame.width / 2 - car.frame.width / 2, y: view.frame.height / 2 - car.frame.width, width: car.frame.width, height: car.frame.height)
             carCrash()
         }
     }
-    // carcrash
+    
     func carCrash() {
+        
         UIView.animate(withDuration: 1) {
-            self.car.transform = CGAffineTransform(scaleX: 3, y: 3)
+            self.car.transform = CGAffineTransform(scaleX: 4.7, y: 4.7)
         }
+        UILabel.animate(withDuration: 1) {
+            self.gameOverText.transform = CGAffineTransform(scaleX: 2, y: 2)
+           
+        }
+        
     }
     
-    // анимация полос
     func superTimer() {
         let timer = Timer.scheduledTimer(timeInterval: 1 / 60,
                                          target: self,
@@ -101,23 +105,18 @@ class ViewController: UIViewController {
     }
     
     func putLine66a() {
-    
-    view.addSubview(line6)
-    view.addSubview(line6a)
-    line6.frame = CGRect(x: line1.frame.minX, y: 0 - 2 * line1.frame.height, width: line1.frame.width, height: line1.frame.height)
-
-    line6a.frame = CGRect(x: line1a.frame.minX, y: 0 - 2 * line1a.frame.height, width: line1a.frame.width, height: line1a.frame.height)
+        
+        line6.frame = CGRect(x: line1.frame.minX, y: 0 - 2 * line1.frame.height, width: line1.frame.width, height: line1.frame.height)
+        
+        line6a.frame = CGRect(x: line1a.frame.minX, y: 0 - 2 * line1a.frame.height, width: line1a.frame.width, height: line1a.frame.height)
     }
     
     func addLineToArray() {
         line += [line1, line2, line3, line4, line5, line6, line1a, line2a, line3a, line4a, line5a, line6a]
     }
     
-    
-    
     @objc func fireTimer() {
         
-        //объеденить все лейблы в массив и применить
         line.forEach {
             if $0.frame.minY < view.frame.height {
                 $0.frame = CGRect(x: $0.frame.minX, y: $0.frame.minY + 2, width: $0.frame.width, height: $0.frame.height)
@@ -134,7 +133,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actiomLeft(_ sender: Any) {
-
+        
         if car.frame.minX > CGFloat(carStep)  {
             car.frame = CGRect(x: car.frame.minX - CGFloat(carStep), y: car.frame.minY, width: car.frame.width, height: car.frame.height)
         } else {
@@ -143,7 +142,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionRight(_ sender: Any) {
-
+        
         if car.frame.maxX < (view.frame.width - CGFloat(carStep)) {
             car.frame = CGRect(x: car.frame.minX + CGFloat(carStep), y: car.frame.minY, width: car.frame.width, height: car.frame.height)
         } else {
