@@ -125,16 +125,6 @@
                                 <rect key="frame" x="0.0" y="843" width="428" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7c-QC-0bv">
-                                        <rect key="frame" x="214" y="0.0" width="52" height="72"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="⌦"/>
-                                        <connections>
-                                            <action selector="actionRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nct-Vm-tcB"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf3-h0-kha">
                                         <rect key="frame" x="154" y="0.0" width="52" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -143,6 +133,16 @@
                                         <state key="normal" title="⌫"/>
                                         <connections>
                                             <action selector="actiomLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkt-qj-jjh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7c-QC-0bv">
+                                        <rect key="frame" x="214" y="0.0" width="52" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="⌦"/>
+                                        <connections>
+                                            <action selector="actionRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nct-Vm-tcB"/>
                                         </connections>
                                     </button>
                                 </subviews>
