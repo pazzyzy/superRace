@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         putLine66a()
         addLineToArray()
+        
+        gameOverText.addShadow()
+//        gameOverText.addGradientWithColor(color: .red)
+//        gameOverText.corner()
     }
     
     @objc func carsToGo() {
