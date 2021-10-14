@@ -20,6 +20,8 @@
 		C605A54F2705EEBD00138B6A /* roadWork.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54E2705EEBD00138B6A /* roadWork.png */; };
 		C630D1E12712EEFB0092D4DA /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */; };
 		C630D1E32712EFB00092D4DA /* UILable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E22712EFB00092D4DA /* UILable+extensions.swift */; };
+		C630D25927187FF60092D4DA /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25727187AE50092D4DA /* customFont.ttf */; };
+		C630D25A27187FF90092D4DA /* KgHappyShadows-7KqA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */; };
 		C65D615F270A4ADA00F62346 /* carCrash.png in Resources */ = {isa = PBXBuildFile; fileRef = C65D615E270A4ADA00F62346 /* carCrash.png */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		C605A54E2705EEBD00138B6A /* roadWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadWork.png; sourceTree = SOURCE_ROOT; };
 		C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 		C630D1E22712EFB00092D4DA /* UILable+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+extensions.swift"; sourceTree = "<group>"; };
+		C630D25727187AE50092D4DA /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = customFont.ttf; path = ../../../../../Downloads/Swift/customFont.ttf; sourceTree = "<group>"; };
+		C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KgHappyShadows-7KqA.ttf"; path = "../../../../../Downloads/kg-happy-font/KgHappyShadows-7KqA.ttf"; sourceTree = "<group>"; };
 		C65D615E270A4ADA00F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carCrash.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,7 @@
 		C605A5132705140600138B6A = {
 			isa = PBXGroup;
 			children = (
+				C630D252271834610092D4DA /* Fonts */,
 				C630D1DE2712ED9A0092D4DA /* Extensions */,
 				C605A51D2705140600138B6A /* Products */,
 				C605A51E2705140600138B6A /* 27.09_SuperRace */,
@@ -97,6 +102,15 @@
 				C630D1E22712EFB00092D4DA /* UILable+extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C630D252271834610092D4DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C630D25727187AE50092D4DA /* customFont.ttf */,
+				C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C630D25A27187FF90092D4DA /* KgHappyShadows-7KqA.ttf in Resources */,
+				C630D25927187FF60092D4DA /* customFont.ttf in Resources */,
 				C605A54F2705EEBD00138B6A /* roadWork.png in Resources */,
 				C605A52C2705140800138B6A /* LaunchScreen.storyboard in Resources */,
 				C605A5292705140800138B6A /* Assets.xcassets in Resources */,
