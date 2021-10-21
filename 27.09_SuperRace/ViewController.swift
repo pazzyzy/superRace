@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     // game over
     @IBOutlet weak var gameOverView: UIView!
     @IBOutlet weak var gameOverText: UILabel!
+    @IBOutlet weak var gameOverPlayer: UILabel!
     
     var timer: Timer?
     let carStep: Int = 140
@@ -43,8 +44,9 @@ class ViewController: UIViewController {
         addLineToArray()
         
         gameOverText.addShadow()
-//        gameOverText.addGradientWithColor(color: .red)
-//        gameOverText.corner()
+
+        let defaults = UserDefaults.standard
+        gameOverPlayer.text = defaults.value(forKey: "PlayerName") as! String
     }
     
     @objc func carsToGo() {
@@ -72,6 +74,8 @@ class ViewController: UIViewController {
         if intersects {
             gameOverView.isHidden = false
             gameOverText.isHidden = false
+//            gameOverPlayer.text = playerNameString
+            gameOverPlayer.isHidden = false
             car.image = UIImage(named: "carCrash")
             car.frame = CGRect(x: view.frame.width / 2 - car.frame.width / 2, y: view.frame.height / 2 - car.frame.width, width: car.frame.width, height: car.frame.height)
             carCrash()
@@ -153,5 +157,6 @@ class ViewController: UIViewController {
             car.frame = CGRect(x: view.frame.width - car.frame.width, y: car.frame.minY, width: car.frame.width, height: car.frame.height)
         }
     }
+    
 }
 

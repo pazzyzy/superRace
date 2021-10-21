@@ -18,6 +18,11 @@
 		C605A54B2705E78000138B6A /* whiteCar.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54A2705E78000138B6A /* whiteCar.png */; };
 		C605A54D2705E7A500138B6A /* grayCar.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54C2705E7A500138B6A /* grayCar.png */; };
 		C605A54F2705EEBD00138B6A /* roadWork.png in Resources */ = {isa = PBXBuildFile; fileRef = C605A54E2705EEBD00138B6A /* roadWork.png */; };
+		C62F5A1F27216DDA00326F23 /* screen_break.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F5A1E27216DDA00326F23 /* screen_break.png */; };
+		C62F5A2127216E3A00326F23 /* ViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F5A2027216E3A00326F23 /* ViewControllerStart.swift */; };
+		C62F5A2327219C5400326F23 /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F5A2227219C5400326F23 /* ViewControllerSettings.swift */; };
+		C62F5A272721AE7C00326F23 /* f1_car.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F5A262721AE7C00326F23 /* f1_car.png */; };
+		C62F5A292721BA4000326F23 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F5A282721BA4000326F23 /* Player.swift */; };
 		C630D1E12712EEFB0092D4DA /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */; };
 		C630D1E32712EFB00092D4DA /* UILable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E22712EFB00092D4DA /* UILable+extensions.swift */; };
 		C630D25927187FF60092D4DA /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25727187AE50092D4DA /* customFont.ttf */; };
@@ -34,16 +39,21 @@
 		C605A5282705140800138B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C605A52B2705140800138B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C605A52D2705140800138B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C605A540270523D500138B6A /* clean-road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clean-road.jpg"; sourceTree = SOURCE_ROOT; };
-		C605A54627052ADF00138B6A /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = SOURCE_ROOT; };
-		C605A54A2705E78000138B6A /* whiteCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCar.png; sourceTree = SOURCE_ROOT; };
-		C605A54C2705E7A500138B6A /* grayCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayCar.png; sourceTree = SOURCE_ROOT; };
-		C605A54E2705EEBD00138B6A /* roadWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadWork.png; sourceTree = SOURCE_ROOT; };
+		C605A540270523D500138B6A /* clean-road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "clean-road.jpg"; path = "images/clean-road.jpg"; sourceTree = SOURCE_ROOT; };
+		C605A54627052ADF00138B6A /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = images/car.png; sourceTree = SOURCE_ROOT; };
+		C605A54A2705E78000138B6A /* whiteCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteCar.png; path = images/whiteCar.png; sourceTree = SOURCE_ROOT; };
+		C605A54C2705E7A500138B6A /* grayCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayCar.png; path = images/grayCar.png; sourceTree = SOURCE_ROOT; };
+		C605A54E2705EEBD00138B6A /* roadWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roadWork.png; path = images/roadWork.png; sourceTree = SOURCE_ROOT; };
+		C62F5A1E27216DDA00326F23 /* screen_break.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_break.png; sourceTree = "<group>"; };
+		C62F5A2027216E3A00326F23 /* ViewControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStart.swift; sourceTree = "<group>"; };
+		C62F5A2227219C5400326F23 /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
+		C62F5A262721AE7C00326F23 /* f1_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f1_car.png; sourceTree = "<group>"; };
+		C62F5A282721BA4000326F23 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 		C630D1E22712EFB00092D4DA /* UILable+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+extensions.swift"; sourceTree = "<group>"; };
 		C630D25727187AE50092D4DA /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = customFont.ttf; path = ../../../../../Downloads/Swift/customFont.ttf; sourceTree = "<group>"; };
 		C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KgHappyShadows-7KqA.ttf"; path = "../../../../../Downloads/kg-happy-font/KgHappyShadows-7KqA.ttf"; sourceTree = "<group>"; };
-		C65D615E270A4ADA00F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carCrash.png; sourceTree = SOURCE_ROOT; };
+		C65D615E270A4ADA00F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carCrash.png; path = images/carCrash.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		C605A5132705140600138B6A = {
 			isa = PBXGroup;
 			children = (
+				C62F5A1D27209E1D00326F23 /* images */,
 				C630D252271834610092D4DA /* Fonts */,
 				C630D1DE2712ED9A0092D4DA /* Extensions */,
 				C605A51D2705140600138B6A /* Products */,
@@ -79,20 +90,32 @@
 			isa = PBXGroup;
 			children = (
 				C605A5282705140800138B6A /* Assets.xcassets */,
+				C62F5A282721BA4000326F23 /* Player.swift */,
+				C605A52D2705140800138B6A /* Info.plist */,
+				C605A52A2705140800138B6A /* LaunchScreen.storyboard */,
 				C605A51F2705140600138B6A /* AppDelegate.swift */,
 				C605A5212705140600138B6A /* SceneDelegate.swift */,
+				C62F5A2027216E3A00326F23 /* ViewControllerStart.swift */,
+				C62F5A2227219C5400326F23 /* ViewControllerSettings.swift */,
 				C605A5232705140600138B6A /* ViewController.swift */,
 				C605A5252705140600138B6A /* Main.storyboard */,
-				C605A52A2705140800138B6A /* LaunchScreen.storyboard */,
-				C605A52D2705140800138B6A /* Info.plist */,
+			);
+			path = 27.09_SuperRace;
+			sourceTree = "<group>";
+		};
+		C62F5A1D27209E1D00326F23 /* images */ = {
+			isa = PBXGroup;
+			children = (
 				C605A540270523D500138B6A /* clean-road.jpg */,
-				C605A54627052ADF00138B6A /* car.png */,
 				C605A54A2705E78000138B6A /* whiteCar.png */,
 				C605A54C2705E7A500138B6A /* grayCar.png */,
 				C605A54E2705EEBD00138B6A /* roadWork.png */,
 				C65D615E270A4ADA00F62346 /* carCrash.png */,
+				C605A54627052ADF00138B6A /* car.png */,
+				C62F5A1E27216DDA00326F23 /* screen_break.png */,
+				C62F5A262721AE7C00326F23 /* f1_car.png */,
 			);
-			path = 27.09_SuperRace;
+			path = images;
 			sourceTree = "<group>";
 		};
 		C630D1DE2712ED9A0092D4DA /* Extensions */ = {
@@ -177,6 +200,8 @@
 				C605A5292705140800138B6A /* Assets.xcassets in Resources */,
 				C605A54B2705E78000138B6A /* whiteCar.png in Resources */,
 				C605A54727052ADF00138B6A /* car.png in Resources */,
+				C62F5A272721AE7C00326F23 /* f1_car.png in Resources */,
+				C62F5A1F27216DDA00326F23 /* screen_break.png in Resources */,
 				C605A5272705140600138B6A /* Main.storyboard in Resources */,
 				C605A54D2705E7A500138B6A /* grayCar.png in Resources */,
 				C65D615F270A4ADA00F62346 /* carCrash.png in Resources */,
@@ -192,10 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C605A5242705140600138B6A /* ViewController.swift in Sources */,
+				C62F5A2127216E3A00326F23 /* ViewControllerStart.swift in Sources */,
 				C630D1E32712EFB00092D4DA /* UILable+extensions.swift in Sources */,
 				C605A5202705140600138B6A /* AppDelegate.swift in Sources */,
 				C630D1E12712EEFB0092D4DA /* UIView+extensions.swift in Sources */,
 				C605A5222705140600138B6A /* SceneDelegate.swift in Sources */,
+				C62F5A2327219C5400326F23 /* ViewControllerSettings.swift in Sources */,
+				C62F5A292721BA4000326F23 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
