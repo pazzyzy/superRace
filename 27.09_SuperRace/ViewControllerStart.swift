@@ -11,13 +11,20 @@ class ViewControllerStart: UIViewController {
     
     @IBOutlet weak var screenBreak: UIImageView!
     @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var containerView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         hideNavigationBar()
         animatedScreen()
         animatedStartButton()
+//        addCustomView()
     }
+    
+//    func addCustomView() {
+//        let customView = Bundle.loadView(fromNib: "CustomView", withType: CustomView.self)
+//        containerView.addSubview(customView)
+//    }
     
     @IBAction func actionGoToTheGame(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -65,3 +72,14 @@ extension UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 }
+
+//extension Bundle {
+//    
+//    static func loadView<T>(fromNib name: String, withType: T.Type) -> T {
+//        if let view = Bundle.main.loadNibNamed(name, owner: nil, options: nil)?.first as? T {
+//            return view
+//        }
+//        fatalError("Could not load view with type " + String(describing: type))
+//      
+//    }
+//}

@@ -29,6 +29,8 @@
 		C630D25927187FF60092D4DA /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25727187AE50092D4DA /* customFont.ttf */; };
 		C630D25A27187FF90092D4DA /* KgHappyShadows-7KqA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */; };
 		C65D615F270A4ADA00F62346 /* carCrash.png in Resources */ = {isa = PBXBuildFile; fileRef = C65D615E270A4ADA00F62346 /* carCrash.png */; };
+		C691E3B32726F24F006DCC81 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C691E3B22726F24F006DCC81 /* CustomView.xib */; };
+		C691E3B52726F28C006DCC81 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691E3B42726F28C006DCC81 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		C630D25727187AE50092D4DA /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = customFont.ttf; path = ../../../../../Downloads/Swift/customFont.ttf; sourceTree = "<group>"; };
 		C630D25827187FA20092D4DA /* KgHappyShadows-7KqA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KgHappyShadows-7KqA.ttf"; path = "../../../../../Downloads/kg-happy-font/KgHappyShadows-7KqA.ttf"; sourceTree = "<group>"; };
 		C65D615E270A4ADA00F62346 /* carCrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carCrash.png; path = images/carCrash.png; sourceTree = SOURCE_ROOT; };
+		C691E3B22726F24F006DCC81 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		C691E3B42726F28C006DCC81 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				C605A5282705140800138B6A /* Assets.xcassets */,
+				C691E3B22726F24F006DCC81 /* CustomView.xib */,
+				C691E3B42726F28C006DCC81 /* CustomView.swift */,
 				C62F5A282721BA4000326F23 /* Player.swift */,
 				C605A52D2705140800138B6A /* Info.plist */,
 				C605A52A2705140800138B6A /* LaunchScreen.storyboard */,
@@ -207,6 +213,7 @@
 				C62F5A272721AE7C00326F23 /* f1_car.png in Resources */,
 				C62F5A1F27216DDA00326F23 /* screen_break.png in Resources */,
 				C605A5272705140600138B6A /* Main.storyboard in Resources */,
+				C691E3B32726F24F006DCC81 /* CustomView.xib in Resources */,
 				C605A54D2705E7A500138B6A /* grayCar.png in Resources */,
 				C65D615F270A4ADA00F62346 /* carCrash.png in Resources */,
 				C605A541270523D500138B6A /* clean-road.jpg in Resources */,
@@ -223,6 +230,7 @@
 				C605A5242705140600138B6A /* ViewController.swift in Sources */,
 				C62F5A2127216E3A00326F23 /* ViewControllerStart.swift in Sources */,
 				C630D1E32712EFB00092D4DA /* UILable+extensions.swift in Sources */,
+				C691E3B52726F28C006DCC81 /* CustomView.swift in Sources */,
 				C605A5202705140600138B6A /* AppDelegate.swift in Sources */,
 				C630D1E12712EEFB0092D4DA /* UIView+extensions.swift in Sources */,
 				C605A5222705140600138B6A /* SceneDelegate.swift in Sources */,

@@ -63,8 +63,8 @@ class ViewController: UIViewController {
             grayCarSpeed = 3
             whiteCarSpeed = 5
         }
-        print(grayCarSpeed)
-        print(whiteCarSpeed)
+//        print(grayCarSpeed)
+//        print(whiteCarSpeed)
         let intersects: Bool = car.frame.intersects(whiteCar.frame) || car.frame.intersects(grayCar.frame) || car.frame.intersects(roadWork.frame)
         
         if grayCar.frame.minY < view.frame.height {
