@@ -74,6 +74,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="points.png" translatesAutoresizingMaskIntoConstraints="NO" id="110-ua-nzx">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="881-sO-U0n">
                                 <rect key="frame" x="147" y="317" width="134" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -90,7 +94,7 @@
                                     <segment title="Formula 1 car"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-M0-8NN">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-M0-8NN">
                                 <rect key="frame" x="118" y="158" width="192" height="45.666666666666664"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -144,7 +148,10 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="classicCarImage" destination="jrG-4T-BbG" id="BRf-s9-E0R"/>
+                        <outlet property="formula1CarImage" destination="nNi-9l-iMn" id="sKH-2q-2Sx"/>
                         <outlet property="playerName" destination="O4Z-M0-8NN" id="Jn8-Hg-MGz"/>
+                        <outlet property="pointsScreen" destination="110-ua-nzx" id="czv-EG-tOn"/>
                         <outlet property="selectCar" destination="HtQ-bb-1Sb" id="CIV-Ew-teT"/>
                         <outlet property="selectDifficulty" destination="881-sO-U0n" id="hh2-b9-pj6"/>
                     </connections>
@@ -386,6 +393,7 @@
         <image name="clean-road.jpg" width="449.51998901367188" height="960"/>
         <image name="f1_car.png" width="864" height="2400"/>
         <image name="grayCar.png" width="450" height="723"/>
+        <image name="points.png" width="1725.8399658203125" height="2287.199951171875"/>
         <image name="roadWork.png" width="512" height="512"/>
         <image name="screen_break.png" width="5000" height="5000"/>
         <image name="whiteCar.png" width="600" height="800"/>

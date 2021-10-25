@@ -23,6 +23,7 @@
 		C62F5A2327219C5400326F23 /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F5A2227219C5400326F23 /* ViewControllerSettings.swift */; };
 		C62F5A272721AE7C00326F23 /* f1_car.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F5A262721AE7C00326F23 /* f1_car.png */; };
 		C62F5A292721BA4000326F23 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F5A282721BA4000326F23 /* Player.swift */; };
+		C62F5A6B2722EED400326F23 /* points.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F5A6A2722EED400326F23 /* points.png */; };
 		C630D1E12712EEFB0092D4DA /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */; };
 		C630D1E32712EFB00092D4DA /* UILable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C630D1E22712EFB00092D4DA /* UILable+extensions.swift */; };
 		C630D25927187FF60092D4DA /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C630D25727187AE50092D4DA /* customFont.ttf */; };
@@ -49,6 +50,7 @@
 		C62F5A2227219C5400326F23 /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
 		C62F5A262721AE7C00326F23 /* f1_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f1_car.png; sourceTree = "<group>"; };
 		C62F5A282721BA4000326F23 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C62F5A6A2722EED400326F23 /* points.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = points.png; sourceTree = "<group>"; };
 		C630D1E02712EEFB0092D4DA /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 		C630D1E22712EFB00092D4DA /* UILable+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+extensions.swift"; sourceTree = "<group>"; };
 		C630D25727187AE50092D4DA /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = customFont.ttf; path = ../../../../../Downloads/Swift/customFont.ttf; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				C605A54627052ADF00138B6A /* car.png */,
 				C62F5A1E27216DDA00326F23 /* screen_break.png */,
 				C62F5A262721AE7C00326F23 /* f1_car.png */,
+				C62F5A6A2722EED400326F23 /* points.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				C630D25A27187FF90092D4DA /* KgHappyShadows-7KqA.ttf in Resources */,
 				C630D25927187FF60092D4DA /* customFont.ttf in Resources */,
+				C62F5A6B2722EED400326F23 /* points.png in Resources */,
 				C605A54F2705EEBD00138B6A /* roadWork.png in Resources */,
 				C605A52C2705140800138B6A /* LaunchScreen.storyboard in Resources */,
 				C605A5292705140800138B6A /* Assets.xcassets in Resources */,

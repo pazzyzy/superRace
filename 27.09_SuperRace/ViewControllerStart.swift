@@ -19,8 +19,6 @@ class ViewControllerStart: UIViewController {
         animatedStartButton()
     }
     
-    
-    
     @IBAction func actionGoToTheGame(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let controller = storyboard.instantiateViewController(identifier: "ViewControllerSettings") as? ViewControllerSettings {
